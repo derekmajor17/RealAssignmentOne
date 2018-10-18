@@ -1,0 +1,14 @@
+.text
+	main:
+	li $v0, 11  
+ 	la $a0, 68 #D (104)     
+	syscall
+	addi $a0, $a0, 33 #e (101)          
+	syscall
+	addi $a0, $a0, 13 #r (114)
+	syscall
+	addi $a0, $a0, -13 #e (101)
+	syscall
+	addi $a0, $a0, 6 #k (107)
+	syscall	
+	
