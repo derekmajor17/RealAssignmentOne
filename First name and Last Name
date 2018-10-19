@@ -1,0 +1,29 @@
+.text
+	main:
+	li $v0, 11  
+ 	la $a0, 68 #Prints character 'D'
+	syscall
+	addi $a0, $a0, 33 #Prints character 'e'     
+	syscall
+	addi $a0, $a0, 13 #Prints character 'r'
+	syscall
+	addi $a0, $a0, -13 #Prints character 'e'
+	syscall
+	addi $a0, $a0, 6 #Prints character 'k'
+	syscall
+	addi $a0, $a0 -63 #Prints character ',' 
+	syscall
+	addi $a0, $a0 -12 #Prints character ' ' 
+	syscall
+	addi $a0, $a0 45 #Prints character 'M'
+	syscall
+	addi $a0, $a0 20 #Prints character 'a'
+	syscall 
+	addi $a0, $a0 9 #Prints character 'j'
+	syscall
+	addi $a0, $a0 5 #Prints character 'o'
+	syscall
+	addi $a0, $a0 3 #Prints character 'r'
+	syscall
+	
+	
