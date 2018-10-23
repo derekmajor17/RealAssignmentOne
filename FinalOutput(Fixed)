@@ -1,0 +1,47 @@
+.text
+	main:
+	li $v0, 11  
+ 	addi $a0, $a0, 63 #Prints out '@' character 
+	syscall
+	addi $a0, $a0, -16 #Prints out character '0'
+	syscall
+	addi $a0, $a0, 2 #Prints out character '2'
+	syscall
+	addi $a0, $a0, 6 #Prints out character '8'
+	syscall	
+	addi $a0, $a0, -3 #Prints out character '5'
+	syscall
+	addi $a0, $a0, -4 #Prints out character '1'
+	syscall 
+	addi $a0, $a0, -1 #Prints out character '0'
+	syscall
+	addi $a0, $a0, 0 #Prints out character '0'
+	syscall
+	addi $a0, $a0, 0 #Prints out character '0'
+	syscall
+	addi $a0, $0, 0xA #Prints out a newline character...ascii code for LF
+	syscall	
+	la $a0, 77 #Prints character 'M'
+	syscall
+	addi $a0, $a0, 20 #Prints character 'a'     
+	syscall
+	addi $a0, $a0, 9 #Prints character 'j'
+	syscall
+	addi $a0, $a0, 5#Prints character 'o'
+	syscall
+	addi $a0, $a0, 3 #Prints character 'r'
+	syscall
+	addi $a0, $a0 -70 #Prints character ',' 
+	syscall
+	addi $a0, $a0 -12 #Prints character ' ' 
+	syscall
+	addi $a0, $a0 36 #Prints character 'D'
+	syscall
+	addi $a0, $a0 33 #Prints character 'e'
+	syscall 
+	addi $a0, $a0 13 #Prints character 'r'
+	syscall
+	addi $a0, $a0 -13 #Prints character 'e'
+	syscall
+	addi $a0, $a0 6 #Prints character 'k'
+	syscall
